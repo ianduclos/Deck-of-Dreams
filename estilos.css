@@ -1,0 +1,135 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align:center;
+}
+
+.container {
+    margin: auto;
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 4rem 2rem;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+}
+.desc{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
+button{
+    text-align: center;
+    background: transparent;
+    font-size: 16px;
+    border: none;
+    margin: 20px;
+    color: white;
+    font-style: italic;
+}
+
+li {
+    padding: 10px;
+}
+
+#picture {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 45%;
+    z-index: -1;
+}
+
+#picture2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 45%;
+    z-index: -1;
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: auto;
+    height: 80vh;
+}
+
+.audio-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: auto;
+    height: fit-content;
+}
+
+.grid{
+    display: flex;
+    gap: 10px;
+    border-bottom: white solid 1.5px;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.grid-item{
+    padding-left: 2rem;
+}
+
+a {
+    font-size: 16px;
+    line-height: 1em;
+    font-weight: normal; 
+    color: #f8fc00;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+a:active{
+    color: white;
+}
+
+.title  {
+    text-align: left;
+    color: white;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    display: inline-block;
+}
